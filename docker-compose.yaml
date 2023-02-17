@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  app: 
+    build: .
+    secrets:
+      - source: database_credentials
+        target: /run/secrets/database_credentials.json
+secrets:
+  database_credentials:
+    file: ./database-credentials.json
