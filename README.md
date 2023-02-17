@@ -1,6 +1,6 @@
 # Termo Puzzle Solver
 
-This repository contains an app that solves the "Termo" web hosted puzzle game using Selenium and is containerized with Docker and Docker Compose. Termo is hosted in (https://term.ooo), and is a brazilian version of the famous wordle game. After solving the current day's word, this app also pushes it to a database used for storing each day solutions, which then is read by https://sougaia.com/termo, a clone of the game where you can play any day's word
+This repository contains an app that solves the "Termo" web hosted puzzle game using Selenium and is containerized with Docker and Docker Compose. Termo is hosted in (https://term.ooo), and is a brazilian version of the famous wordle game. After solving the current day's word, this app also pushes it to a database used for storing each day solutions, which then is read by http://sougaia.com/termo, a clone of the game where you can play any day's word
 
 ## Requirements
 
